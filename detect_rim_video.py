@@ -16,7 +16,7 @@ def diffImg(t0, t1, t2):				# Function to calculate difference between images
 	d2 = cv2.absdiff(t1, t0)
 	return cv2.bitwise_and(d1, d2)
 
-threshold = 1000000						# Threshold for triggering motion detection (number of pixels different)
+threshold = 1000000						# Threshold for triggering motion detection
 
 
 if __name__ == '__main__':
